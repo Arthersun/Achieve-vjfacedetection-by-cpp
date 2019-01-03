@@ -1,0 +1,14 @@
+﻿  main.cpp
+c:\users\overai\documents\人脸识别\facedetect\weakclassifier\main.cpp(107): warning C4101: “hx”: 未引用的局部变量
+c:\users\overai\documents\人脸识别\facedetect\weakclassifier\main.cpp(371): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+main.obj : warning LNK4006: "double __cdecl classifier_threshold_select(class std::vector<struct weakclassifier,class std::allocator<struct weakclassifier> >,double &,int &)" (?classifier_threshold_select@@YANV?$vector@Uweakclassifier@@V?$allocator@Uweakclassifier@@@std@@@std@@AEANAEAH@Z) 已在 classifier_threshold_select.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "class std::vector<struct sam,class std::allocator<struct sam> > __cdecl explain_txt(class cv::String)" (?explain_txt@@YA?AV?$vector@Usam@@V?$allocator@Usam@@@std@@@std@@VString@cv@@@Z) 已在 explain_txt.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "double * * __cdecl face_integral_img1(class cv::String)" (?face_integral_img1@@YAPEAPEANVString@cv@@@Z) 已在 integralimg.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "double __cdecl haar_calculate(double,int,int,int,int,double * *)" (?haar_calculate@@YANNHHHHPEAPEAN@Z) 已在 haar_calculate.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "class std::vector<struct feature,class std::allocator<struct feature> > __cdecl read_txt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?read_txt@@YA?AV?$vector@Ufeature@@V?$allocator@Ufeature@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z) 已在 explain_txt.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "void __cdecl split1(char *,char const *,char * *)" (?split1@@YAXPEADPEBDPEAPEAD@Z) 已在 explain_txt.obj 中定义；已忽略第二个定义
+write.obj : warning LNK4006: "void __cdecl write(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,double,int,double,int)" (?write@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHNHNH@Z) 已在 main.obj 中定义；已忽略第二个定义
+write.obj : warning LNK4006: "void __cdecl writefinalclassifier(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int,double,double,double,int)" (?writefinalclassifier@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHHHNNNH@Z) 已在 main.obj 中定义；已忽略第二个定义
+C:\Users\overAI\Documents\人脸识别\facedetect\x64\Debug\weakclassifier.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  weakclassifier.vcxproj -> C:\Users\overAI\Documents\人脸识别\facedetect\x64\Debug\weakclassifier.exe
