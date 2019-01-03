@@ -10,7 +10,7 @@
 
 ## Introduction
 
-程序使用opencv和vs2017进行开发（运行需要opencv环境，下载连接https://opencv.org/releases.html），编程语言是C++，需要进行一定的opencv环境配置（后面有介绍）。运行本程序后会得到一个存有强分类器各值的txt文档。通过查看该文档可以得到强分类器的计算公式。
+程序使用opencv和vs2017进行开发（运行需要opencv环境，下载连接https://opencv.org/releases.html ）。编程语言是C++，需要进行一定的opencv环境配置（后面有介绍）。运行本程序后会得到一个存有强分类器各值的txt文档。通过查看该文档可以得到强分类器的计算公式。
 
 
 
